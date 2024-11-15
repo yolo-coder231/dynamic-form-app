@@ -1,0 +1,35 @@
+
+[
+    {
+      "sectionTitle": "PDF Data",
+      "fields": [
+        {
+          "name": "fullname",
+          "label": "Fullname",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter full name"
+        },
+        {
+          "name": "email",
+          "label": "Email Address",
+          "type": "email",
+          "required": false,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "password",
+          "label": "Password",
+          "type": "password",
+          "required": false,
+          "placeholder": "Enter password"
+        },
+        {
+          "name": "birthday",
+          "label": "Date of Birth",
+          "type": "date",
+          "required": false
+        }
+      ]
+    }
+  ]
