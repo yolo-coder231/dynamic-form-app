@@ -1,0 +1,20 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      # install npm dependencies
+      - npm install
+
+  build:
+    commands:
+      # run build script
+      - npm run build
+
+artifacts:
+  # include all files required to run the application
+  # notably excludes node_modules, as this will cause overwrite errors on deploy
+  files:
+    - '**/*'
