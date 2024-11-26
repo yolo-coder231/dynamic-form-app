@@ -8,7 +8,7 @@ const App = () => {
   const handleFormSubmit = (formData) => {
     console.log("Form Data:", formData);
   };
-
+  //dummy check
   return (
     <div className="container mt-5">
       {/* <DynamicForm schema={formSchema} apiEndpoint='http://localhost:5000/api' onSubmit={handleFormSubmit} /> */}
